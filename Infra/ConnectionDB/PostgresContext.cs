@@ -13,8 +13,8 @@ public partial class PostgresContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>()
-            .ToTable("Users", "public")
-            .HasKey(e => e.Id);
+            .ToTable("users", "public")
+            .HasKey(e => e.user_id);
 
         base.OnModelCreating(modelBuilder);
     }

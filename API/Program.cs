@@ -1,6 +1,7 @@
 using Application.Interfaces;
 using Application.Services;
 using Infra.ConnectionDB;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +24,9 @@ builder.Services.AddDbContext<PostgresContext>(options =>
 
 // servicios 
 builder.Services.AddScoped<IUserService, UserService>();
-    
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<IPasswordHasher<string>, PasswordHasher<string>>();
+
 #endregion
 
 var app = builder.Build();

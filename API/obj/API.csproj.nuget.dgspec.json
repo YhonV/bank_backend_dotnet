@@ -1,42 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yhviv\\Desktop\\bank-backend\\API\\API.csproj": {}
+    "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/API/API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yhviv\\Desktop\\bank-backend\\API\\API.csproj": {
+    "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yhviv\\Desktop\\bank-backend\\API\\API.csproj",
+        "projectUniqueName": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/API/API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\yhviv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\API\\obj\\",
+        "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/API/API.csproj",
+        "packagesPath": "/Users/yhonvivas/.nuget/packages/",
+        "outputPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yhviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yhonvivas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\Application.csproj"
+              "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/Application.csproj": {
+                "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/Application.csproj"
               },
-              "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj"
+              "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj": {
+                "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj"
               }
             }
           }
@@ -57,6 +51,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.5, )"
@@ -85,43 +83,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\Application.csproj": {
+    "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\yhviv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Application\\obj\\",
+        "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/Application.csproj",
+        "packagesPath": "/Users/yhonvivas/.nuget/packages/",
+        "outputPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Application/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yhviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yhonvivas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj"
+              "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj": {
+                "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj"
               },
-              "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj": {
-                "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj"
+              "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj": {
+                "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj"
               }
             }
           }
@@ -141,6 +133,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -157,32 +159,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj": {
+    "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\yhviv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\obj\\",
+        "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj",
+        "packagesPath": "/Users/yhonvivas/.nuget/packages/",
+        "outputPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yhviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yhonvivas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -222,40 +218,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj": {
+    "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj",
+        "projectUniqueName": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\Infra.csproj",
-        "packagesPath": "C:\\Users\\yhviv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Infra\\obj\\",
+        "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/Infra.csproj",
+        "packagesPath": "/Users/yhonvivas/.nuget/packages/",
+        "outputPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Infra/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yhviv\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/yhonvivas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\yhviv\\Desktop\\bank-backend\\Domain\\Domain.csproj"
+              "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj": {
+                "projectPath": "/Users/yhonvivas/Documents/programacion/bank_backend_dotnet/Domain/Domain.csproj"
               }
             }
           }
@@ -317,7 +307,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

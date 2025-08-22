@@ -4,7 +4,7 @@ namespace Domain.Entities;
 
 public class User
 {
-    public int Id { get; set; }
-    public string Username { get; set; } = string.Empty;
-
+    public int user_id { get; set; }
+    public string username { get; set; } = string.Empty;
+    public string hash_password { get; set; } = string.Empty;
 }
